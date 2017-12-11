@@ -11,7 +11,8 @@ def using_unshift(array, value)
  end
 
  def pop_with_args(array, num)
-   array.pop(num)
+pop =    array.pop(num)
+   pop
  end
 
  def using_shift(array)
@@ -19,7 +20,7 @@ def using_unshift(array, value)
  end
 
  def shift_with_args(array, num)
-   array.shift(num+1)
+   array.shift(num)
  end
 
  def using_concat(array1, array2)
