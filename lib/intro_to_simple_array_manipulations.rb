@@ -19,7 +19,7 @@ def using_unshift(array, value)
  end
 
  def shift_with_args(array, num)
-   array.shift(2)
+   array.shift(num)
  end
 
  def using_concat(array1, array2)
